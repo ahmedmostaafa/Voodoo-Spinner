@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{cc1ddfdf-34d7-45fa-a3ed-5b5c8565723b}">
+		<property name="assetPath">
+			<value>coin_ring_gemstone_item_01.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.47714583333333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{21cb0c47-8a8f-44ba-8d3e-04b23a416224}</destination>
+		</relationship>
+	</object>
+</objects>

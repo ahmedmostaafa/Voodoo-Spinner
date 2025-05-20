@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{84b8e27e-1d4e-41e3-8336-ed88cfb4dc94}">
+		<property name="assetPath">
+			<value>SFX_Weapon_Melee_Body_Hit_Bloody_1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.40623582766439909</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{21cb0c47-8a8f-44ba-8d3e-04b23a416224}</destination>
+		</relationship>
+	</object>
+</objects>

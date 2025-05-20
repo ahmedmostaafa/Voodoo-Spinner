@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerMaster" id="{a480c96c-781b-44ec-872d-9005fae9cfbe}">
+		<property name="name">
+			<value>Master Bus</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{51d072bd-8c02-4e9d-b6eb-5da8368f0c13}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{58fceaea-0a87-4f5d-a1cb-5345bdf9a985}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{641700df-afae-49b6-8b07-c2ea5dabd840}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{51d072bd-8c02-4e9d-b6eb-5da8368f0c13}">
+		<relationship name="effects">
+			<destination>{eaa79464-0121-49b2-9f4f-c90b8c3753a0}</destination>
+			<destination>{2295a4e2-4a6a-41c6-97dd-be190b36e99c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{58fceaea-0a87-4f5d-a1cb-5345bdf9a985}">
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{eaa79464-0121-49b2-9f4f-c90b8c3753a0}" />
+	<object class="SFXReverbEffect" id="{2295a4e2-4a6a-41c6-97dd-be190b36e99c}" />
+</objects>

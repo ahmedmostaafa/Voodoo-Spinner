@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{cd2546d0-b680-496e-bb31-5214c6f588f3}">
+		<property name="assetPath">
+			<value>music_candyland.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>56</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{21cb0c47-8a8f-44ba-8d3e-04b23a416224}</destination>
+		</relationship>
+	</object>
+</objects>
