@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c63c79b485f74ba898b8c33138a818e6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - <Group>k__BackingField: {instanceID: 0}
+  - firstSelected: {instanceID: 0}
+  - coinsText: {instanceID: 0}
+  - upgradeViewPrefab: {fileID: 2126427723596909021, guid: 521190900f952ee43860f4fe285f9cec, type: 3}
+  - upgradeViewParent: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b50260b7f9a84ce2a4acc8b89ef5df47, type: 3}
+  m_Name: WaveUpgradeData
+  m_EditorClassIdentifier: 
+  waveUpgrades:
+  - rid: 5936955527429095799
+  - rid: 5936955527429095801
+  - rid: 5936955527429095803
+  - rid: 5936955527429095805
+  - rid: 5936955527429095807
+  - rid: 5936955527429095809
+  - rid: 5936955527429095811
+  - rid: 5936955527429095813
+  - rid: 5936955527429095815
+  - rid: 5311147209413099823
+  - rid: 5311147209413099824
+  - rid: 5311147209413099825
+  - rid: 6514592362912284770
+  <Stats>k__BackingField:
+  - rid: 5936955487148048471
+  - rid: 5936955487148048482
+  - rid: 5936955487148048525
+  - rid: 5311147209413099811
+  - rid: 5311147258489340163
+  references:
+    version: 2
+    RefIds:
+    - rid: 5311147209413099811
+      type: {class: 'Stat`1[[System.Single, mscorlib]]', ns: KabreetGames.BladeSpinner.TowerSystem.Stats, asm: Assembly-CSharp}
+      data:
+        statName: SlowDownFactor
+        baseValue: 0.05
+    - rid: 5311147209413099823
+      type: {class: EventWaveUpgrade, ns: KabreetGames.BladeSpinner, asm: Assembly-CSharp}
+      data:
+        <Icon>k__BackingField: {fileID: 21300000, guid: efb97f01ed99b45ecaf26a757f6051d1, type: 3}
+        displayName: Add spinner
+        waveUpgradeEventName: SpawnSpinnerEvent
+    - rid: 5311147209413099824
+      type: {class: EventWaveUpgrade, ns: KabreetGames.BladeSpinner, asm: Assembly-CSharp}
+      data:
+        <Icon>k__BackingField: {fileID: 21300000, guid: efb97f01ed99b45ecaf26a757f6051d1, type: 3}
+        displayName: Add spinner
+        waveUpgradeEventName: SpawnSpinnerEvent
+    - rid: 5311147209413099825
+      type: {class: EventWaveUpgrade, ns: KabreetGames.BladeSpinner, asm: Assembly-CSharp}
+      data:
+        <Icon>k__BackingField: {fileID: 21300000, guid: efb97f01ed99b45ecaf26a757f6051d1, type: 3}
+        displayName: Add spinner
+        waveUpgradeEventName: SpawnSpinnerEvent
+    - rid: 5311147258489340163
+      type: {class: 'Stat`1[[System.Int32, mscorlib]]', ns: KabreetGames.BladeSpinner.TowerSystem.Stats, asm: Assembly-CSharp}
+      data:
+        statName: TotalWaves
+        baseValue: 15
+    - rid: 5936955487148048471
+      type: {class: 'Stat`1[[System.Single, mscorlib]]', ns: KabreetGames.BladeSpinner.TowerSystem.Stats, asm: Assembly-CSharp}
+      data:
+        statName: Speed
+        baseValue: 15
+    - rid: 5936955487148048482
+      type: {class: 'Stat`1[[System.Int32, mscorlib]]', ns: KabreetGames.BladeSpinner.TowerSystem.Stats, asm: Assembly-CSharp}
+      data:
+        statName: Damage
+        baseValue: 1
+    - rid: 5936955487148048525
+      type: {class: 'Stat`1[[System.Int32, mscorlib]]', ns: KabreetGames.BladeSpinner.TowerSystem.Stats, asm: Assembly-CSharp}
+      data:
+        statName: Health
+        baseValue: 5
+    - rid: 5936955527429095799
+      type: {class: StatWaveUpgrade, ns: KabreetGames.BladeSpinner, asm: Assembly-CSharp}
+      data:
+        <Icon>k__BackingField: {fileID: 21300000, guid: 6dd98809192e24bb185001de5a7f7b38, type: 3}
+        statName: Health
+        statModifier:
+          rid: 5936955527429095800
+    - rid: 5936955527429095800
+      type: {class: AddStatModifier, ns: KabreetGames.BladeSpinner.TowerSystem.Stats, asm: Assembly-CSharp}
+      data:
+        <Value>k__BackingField: 1
+    - rid: 5936955527429095801
+      type: {class: StatWaveUpgrade, ns: KabreetGames.BladeSpinner, asm: Assembly-CSharp}
+      data:
+        <Icon>k__BackingField: {fileID: 21300000, guid: 44f2803dad0404cbeb9ee038d70da104, type: 3}
+        statName: Speed
+        statModifier:
+          rid: 5936955527429095802
+    - rid: 5936955527429095802
+      type: {class: MultiplyStatModifier, ns: KabreetGames.BladeSpinner.TowerSystem.Stats, asm: Assembly-CSharp}
+      data:
+        <Value>k__BackingField: 0.03
+    - rid: 5936955527429095803
+      type: {class: StatWaveUpgrade, ns: KabreetGames.BladeSpinner, asm: Assembly-CSharp}
+      data:
+        <Icon>k__BackingField: {fileID: 21300000, guid: 44f2803dad0404cbeb9ee038d70da104, type: 3}
+        statName: Speed
+        statModifier:
+          rid: 5936955527429095804
+    - rid: 5936955527429095804
+      type: {class: MultiplyStatModifier, ns: KabreetGames.BladeSpinner.TowerSystem.Stats, asm: Assembly-CSharp}
+      data:
+        <Value>k__BackingField: 0.05
+    - rid: 5936955527429095805
+      type: {class: StatWaveUpgrade, ns: KabreetGames.BladeSpinner, asm: Assembly-CSharp}
+      data:
+        <Icon>k__BackingField: {fileID: 21300000, guid: 44f2803dad0404cbeb9ee038d70da104, type: 3}
+        statName: Speed
+        statModifier:
+          rid: 5936955527429095806
+    - rid: 5936955527429095806
+      type: {class: MultiplyStatModifier, ns: KabreetGames.BladeSpinner.TowerSystem.Stats, asm: Assembly-CSharp}
+      data:
+        <Value>k__BackingField: 0.07
+    - rid: 5936955527429095807
+      type: {class: StatWaveUpgrade, ns: KabreetGames.BladeSpinner, asm: Assembly-CSharp}
+      data:
+        <Icon>k__BackingField: {fileID: 21300000, guid: 44f2803dad0404cbeb9ee038d70da104, type: 3}
+        statName: Speed
+        statModifier:
+          rid: 5936955527429095808
+    - rid: 5936955527429095808
+      type: {class: MultiplyStatModifier, ns: KabreetGames.BladeSpinner.TowerSystem.Stats, asm: Assembly-CSharp}
+      data:
+        <Value>k__BackingField: 0.1
+    - rid: 5936955527429095809
+      type: {class: StatWaveUpgrade, ns: KabreetGames.BladeSpinner, asm: Assembly-CSharp}
+      data:
+        <Icon>k__BackingField: {fileID: 21300000, guid: e35fc472b6ada425894eef3b044e099f, type: 3}
+        statName: Damage
+        statModifier:
+          rid: 5936955527429095810
+    - rid: 5936955527429095810
+      type: {class: MultiplyStatModifier, ns: KabreetGames.BladeSpinner.TowerSystem.Stats, asm: Assembly-CSharp}
+      data:
+        <Value>k__BackingField: 0.3
+    - rid: 5936955527429095811
+      type: {class: StatWaveUpgrade, ns: KabreetGames.BladeSpinner, asm: Assembly-CSharp}
+      data:
+        <Icon>k__BackingField: {fileID: 21300000, guid: e35fc472b6ada425894eef3b044e099f, type: 3}
+        statName: Damage
+        statModifier:
+          rid: 5936955527429095812
+    - rid: 5936955527429095812
+      type: {class: MultiplyStatModifier, ns: KabreetGames.BladeSpinner.TowerSystem.Stats, asm: Assembly-CSharp}
+      data:
+        <Value>k__BackingField: 0.5
+    - rid: 5936955527429095813
+      type: {class: StatWaveUpgrade, ns: KabreetGames.BladeSpinner, asm: Assembly-CSharp}
+      data:
+        <Icon>k__BackingField: {fileID: 21300000, guid: e35fc472b6ada425894eef3b044e099f, type: 3}
+        statName: Damage
+        statModifier:
+          rid: 5936955527429095814
+    - rid: 5936955527429095814
+      type: {class: MultiplyStatModifier, ns: KabreetGames.BladeSpinner.TowerSystem.Stats, asm: Assembly-CSharp}
+      data:
+        <Value>k__BackingField: 0.7
+    - rid: 5936955527429095815
+      type: {class: StatWaveUpgrade, ns: KabreetGames.BladeSpinner, asm: Assembly-CSharp}
+      data:
+        <Icon>k__BackingField: {fileID: 21300000, guid: e35fc472b6ada425894eef3b044e099f, type: 3}
+        statName: Damage
+        statModifier:
+          rid: 5936955527429095816
+    - rid: 5936955527429095816
+      type: {class: MultiplyStatModifier, ns: KabreetGames.BladeSpinner.TowerSystem.Stats, asm: Assembly-CSharp}
+      data:
+        <Value>k__BackingField: 1
+    - rid: 6514592362912284770
+      type: {class: EventWaveUpgrade, ns: KabreetGames.BladeSpinner, asm: Assembly-CSharp}
+      data:
+        <Icon>k__BackingField: {fileID: 21300000, guid: 9cf28e4c1af544a6a8ed517c6e266ca1, type: 3}
+        displayName: Add shoot spinner
+        waveUpgradeEventName: SpawnShootSpinnerEvent
